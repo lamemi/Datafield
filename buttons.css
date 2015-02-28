@@ -1,0 +1,59 @@
+/* Buttons CSS */
+/* <a class="buttonFreeTrial" href="#">Free Trial</a> */
+
+.buttonFreeTrial {
+	background: #df001a !important;
+	width: 380px;
+        height: auto;
+        line-height: 30px;
+        padding: 7px 0px;
+	margin-bottom: 17px;
+        margin-top: 160px;
+	border-radius: 5px;
+	text-shadow: #70000e 1px 1px 1px;
+	color: #ffffff !important;
+	font-size: 27px;
+	font-family: Arial, serif;
+	font-weight: bold;
+	text-decoration: none;
+	font-style: none;
+	text-transform: normal;
+	vertical-align: middle;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#df001a), to(#df001a));
+	background: -moz-linear-gradient(top, #df001a, #df001a);
+	background: linear-gradient(to bottom, #df001a, #df001a);
+	-webkit-box-shadow: #999999 2px 2px 0px 0px;
+	-moz-box-shadow: #999999 2px 2px 0px 0px;
+}
+.buttonFreeTrial:hover, .buttonFreeTrial:focus, .buttonFreeTrial:active {
+	background: #be0017;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	font-style: none;
+	background: -webkit-gradient(linear, left top, left bottom, from(#be0017), to(#be0017));
+	background: -moz-linear-gradient(top, #be0017, #be0017);
+}
+#popupContactClose {
+	cursor: pointer;
+}
+
+/*
+	QUERIES
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    .buttonFreeTrial{
+        padding: 13px 0px;
+        width: 100%;
+        margin-top: 20px;
+        height: auto;
+        line-height: normal;
+    }
+}

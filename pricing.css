@@ -1,0 +1,514 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Pricing */
+#pricing{width: 925px; margin:30px auto; text-align: center}
+#pricing h1{ text-align: center; font-size: 30px; color: #FF9815; font-weight: bold; }
+#pricing .mobile { display: none; }
+#pricing h2{ color: #FF9815; font-size: 18px; font-weight: bold; margin: 20px 0 30px 0; text-align: center; text-transform: uppercase; }
+#pricing .dt > p{ text-align: center; color: #c3c3c3; font-size: 16px; margin-top: 10px; margin-bottom: 0; font-weight: bold;}
+#pricing table{ font-family:Arial, Verdana, Helvetica, sans-serif; font-size: 13px; color: #444444; position: relative; width: 925px; margin-bottom: 45px; }
+#pricing table th{ color: #ffffff; width: 150px; vertical-align: bottom; border-right: 1px solid #ffffff; border-bottom: 1px solid #ffffff; }
+#pricing table td{ height: 55px; text-align: center; font-weight: bold; line-height: normal}
+#pricing table th.first-column{ width: 325px; text-align: left; }
+#pricing table .first-column{ border: none;}
+#pricing table th div{ padding: 0px 0px 10px 0px; text-align: center; display: block; border-radius: 5px 5px 0px 0px; -moz-border-radius: 5px 5px 0px 0px; -webkit-border-radius: 5px 5px 0px 0px; margin: 0px 0px; }
+#pricing table .free div{ background: #353535; color: #ffffff;}
+#pricing table .basic div{ background: #faa419; color: #ffffff; }
+#pricing table .premium div{ background: #1662b8; color: #ffffff; }
+#pricing table .pro div{ background: #8ec63f; color: #ffffff; }
+#pricing table th div h3{ padding: 10px 0px; border-radius: 5px 5px 0px 0px; -moz-border-radius: 5px 5px 0px 0px; -webkit-border-radius: 5px 5px 0px 0px; background: #232323; font-size: 16px; text-transform: uppercase; }
+#pricing table .free div h3{ background: #232323; }
+#pricing table .basic div h3{ background: #fd850b; }
+#pricing table .premium div h3{ background: #0a4c98; }
+#pricing table .pro div h3{  background: #78b228; }
+#pricing table th p{ margin: 4px 0px;}
+#pricing table .highlight div .price{ height: 75px;}
+#pricing table span.dollar{ font-size: 30px;}
+#pricing table span.numb{ font-size: 58px;}
+#pricing table td.first-column-one{ color: #7b7b7b; text-align: left; padding: 0px 15px; border-right: 1px solid #ffffff; border-left: 4px solid #e6e6e6; border-top: 4px solid #e6e6e6; }
+#pricing table td.first-column-not-one{ color: #7b7b7b; text-align: left; padding: 0px 15px; border-right: 1px solid #ffffff; border-left: 4px solid #e6e6e6; border-top: 1px solid #ffffff; }
+#pricing table td.first-column-tenth{ color: #7b7b7b; text-align: left; padding: 0px 15px; border-right: 1px solid #ffffff; border-left: 4px solid #e6e6e6;  border-top: 1px solid #ffffff; }
+#pricing table td.first-column-eleventh{ color: #7b7b7b; text-align: left; padding: 0px 15px; border-right: 1px solid #ffffff; border-left: 4px solid #e6e6e6;  border-top: 1px solid #ffffff ; border-bottom: 4px solid #e6e6e6; }
+#pricing table td.check-colum-fisrt { border-right: 4px solid #e6e6e6; border-left: 4px solid #e6e6e6; border-top: 4px solid #e6e6e6;}
+#pricing table td.check-colum { border-right: 4px solid #e6e6e6; border-left: 4px solid #e6e6e6;}
+#pricing table td.check-colum-sixth { border-right: 4px solid #e6e6e6; border-left: 4px solid #e6e6e6; border-bottom: 4px solid #e6e6e6;}
+#pricing table td.not-first-column{ border-right: 1px solid #ffffff; border-bottom: 1px solid #ffffff;}
+#pricing table td.dark-cell{ background: #e6e6e6;}
+#pricing table td.light-cell{ background: #f0f0f0; }
+#pricing table td.light-cell a.linkcontact {color: #959595; cursor: pointer; text-decoration: underline;}
+#pricing table td.signup{ border-right: 1px solid #ffffff; border-top: 1px solid #ffffff; border-bottom: 1px solid #ffffff; /*box-shadow: none !important;*/ }
+#pricing table td.signup-first{ border-left: 1px solid #ffffff; }
+#pricing table td.signup a.button{ height: 30px; width: 108px; line-height: 30px; background: url("../images/btn-black.png") top left no-repeat; color: #ffffff;text-decoration: none; display: block; margin: 0px auto; cursor: pointer}
+#pricing table td.highlight div{ width: 100%; height: 100%; line-height: 55px; }
+#pricing table td.highlight h4{ background: #353535; color: #f0f0f0; font-size: 20px; height: 35px; line-height: 50px; }
+#pricing table th.highlight div{ position: relative; -moz-box-shadow: 4px 0 6px #cecece,  -4px 0 6px #cecece; -webkit-box-shadow: 4px 0 6px #cecece,  -4px 0 6px #cecece; box-shadow: 4px 0 6px #cecece,  -4px 0 6px #cecece; }
+#pricing table td.highlight{ -moz-box-shadow: 4px 0 6px #cecece,  -4px 0 6px #cecece; -webkit-box-shadow: 4px 0 6px #cecece,  -4px 0 6px #cecece; box-shadow: 4px 0 6px #cecece,  -4px 0 6px #cecece; position: relative; }
+#pricing table td.highlight a.button{ background: url("../images/btn-blue.png") top left no-repeat; }
+
+#pricing table td.highlight div{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    line-height: 55px;
+    padding-left: 15px;
+    position: relative;
+}
+#pricing table td.highlight div span.used{
+    position: absolute;
+    top: -10px;
+    right: 30px;
+    z-index: 2;
+}
+#pricing table td.highlight div span.value{
+    position: absolute;
+    bottom: -10px;
+    right: 30px;
+    color: #ffffff;
+    font-size: 14px;
+    z-index: 2;
+}
+#pricing table td.highlight div span.grey{
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    width: 90px;
+    height: 55px;
+    background: #9c9c9c;
+    z-index: 1;
+}
+#pricing table td.highlight div span.arrow-right-dark {
+    width: 0;
+    height: 0;
+    border-top: 27px solid transparent;
+    border-bottom: 27px solid transparent;
+    border-left: 20px solid #E6E6E6;
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    z-index: 3;
+}
+#pricing table td.highlight div span.arrow-right-light {
+    width: 0;
+    height: 0;
+    border-top: 27px solid transparent;
+    border-bottom: 27px solid transparent;
+    border-left: 20px solid #F0F0F0;
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    z-index: 3;
+}
+#pricing table td.highlight span.arrow-bottom {
+    width: 0;
+    height: 0;
+    border-left: 74px solid transparent;
+    border-right: 74px solid transparent;
+    border-top: 20px solid #353535;
+    display: block;
+}
+#pricing table td.highlight h4{
+    background: #353535;
+    color: #f0f0f0;
+    font-size: 20px;
+    height: 35px;
+    line-height: 50px;
+}
+#pricing table th.highlight div{
+    /*    box-shadow: 0px 0px 10px 3px #ccc;*/
+    position: relative;
+    -moz-box-shadow: 4px 0 6px #cecece,  -4px 0 6px #cecece;
+    -webkit-box-shadow: 4px 0 6px #cecece,  -4px 0 6px #cecece;
+    box-shadow: 4px 0 6px #cecece,  -4px 0 6px #cecece;
+}
+#pricing table td.highlight{
+    /*    box-shadow: 0px 0px 10px 3px #ccc;*/
+    -moz-box-shadow: 4px 0 6px #cecece,  -4px 0 6px #cecece;
+    -webkit-box-shadow: 4px 0 6px #cecece,  -4px 0 6px #cecece;
+    box-shadow: 4px 0 6px #cecece,  -4px 0 6px #cecece;
+    position: relative;
+}
+#pricing td span.used{
+    display: none;
+}
+
+#pricing td.highlight span.used{
+    display: block;
+}
+
+/* Features */
+.df_page_feature{
+    margin: 30px auto;
+}
+.df_page_feature h1{
+    text-align: center;
+    font-size: 30px;
+    color: #FF9815;
+    font-weight: bold;
+}
+.df_page_feature h3{
+    text-align: center;
+    color: #FF9815;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.df_page_feature > div {
+    margin: 10px 0px;
+    color: #ffffff;
+    position: relative;
+}
+.df_page_feature .create_complex_forms{
+    background: #1662b8;
+}
+.df_page_feature .collect_view_data{
+    background: #faa419;
+}
+.df_page_feature .publishing_forms{
+    background: #8ec63f;
+}
+.df_page_feature .have_fun_collecting{
+    background: #353535;
+}
+.df_page_feature .arrow_blt{
+    width: 0; 
+    height: 0; 
+    border-top: 0px solid transparent;
+    border-bottom: 42px solid transparent;
+    border-left: 377px solid #ffffff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+.df_page_feature .arrow_wb{
+    width: 0; 
+    height: 0; 
+    border-top: 42px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 377px solid #ffffff;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 10;
+}
+.df_page_feature .arrow_ot{
+    width: 0; 
+    height: 0; 
+    border-top: 42px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 377px solid #faa419;
+    position: absolute;
+    top: -42px;
+    left: 0px;
+    z-index: 11;
+}
+.df_page_feature .arrow_gt{
+    width: 0; 
+    height: 0; 
+    border-top: 42px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 377px solid #8ec63f;
+    position: absolute;
+    top: -42px;
+    left: 0px;
+    z-index: 11;
+}
+.df_page_feature .arrow_bt{
+    width: 0; 
+    height: 0; 
+    border-top: 42px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 377px solid #353535;
+    position: absolute;
+    top: -42px;
+    left: 0px;
+    z-index: 11;
+}
+.df_page_feature .left_column{
+    float: left;
+    width: 350px;
+    padding: 0px 15px 0px 15px;
+}
+.df_page_feature .left_column h2{
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+}
+.df_page_feature .create_complex_forms h2{
+    margin: 160px 0px 50px 0px;
+}
+.df_page_feature .collect_view_data h2{
+    margin: 30px 0px 40px 0px;
+}
+.df_page_feature .publishing_forms h2{
+    margin: 16px 0px 40px 0px;
+}
+.df_page_feature .have_fun_collecting h2{
+    margin: 150px 0px 50px 0px;
+}
+.df_page_feature .right_column{
+    float: right;
+    width: 590px;
+    border-left: 1px solid #ffffff;padding: 0px 10px;
+}
+.df_page_feature .right_column p{
+    font-size: 14px;
+    padding: 10px 0px;
+    border-bottom: 1px solid #ffffff;
+    line-height: 22px;
+}
+.df_page_feature .right_column p a{
+    color: #ffffff;
+}
+.df_page_feature .right_column p:last-child{
+    border: none;
+}
+.df_page_feature .right_column .feature_infocustom_df{
+    position: relative;
+}
+.df_page_feature .right_column .feature_infocustom_df .popup_info {
+    background: #7b7b7b;
+    border-radius: 7px;
+    bottom: 30px;
+    display: none;
+    padding: 10px;
+    position: absolute;
+    right: -115px;
+    width: 300px;
+    z-index: 2;
+}
+.df_page_feature .right_column .feature_infocustom_df .popup_info p{
+    border: none;
+    padding: 0px;
+}
+.df_page_feature .right_column .infoCustomDatafield{
+    background: url("../images/i-icon.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 21px;
+    margin-right: 20px;
+    margin-top: -2px;
+    text-indent: -9999px;
+    width: 21px;
+}
+.df_page_feature .left_column img{
+    position: absolute;
+    bottom: -40px;
+    left: 35px;
+}
+.df_page_feature .publishing_forms .left_column img{
+    left: 80px;
+    bottom: -18px;
+}
+.df_page_feature .have_fun_collecting .left_column img{
+    left: 0px;
+    bottom: 0px;
+}
+.df_page_feature .more_info{
+    margin: 50px 0px;
+}
+.df_page_feature .more_info p{
+    text-align: center;
+    color: #c3c3c3;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/*
+        QUERIES
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+
+    /* Pricing */
+    #pricing{
+        width: 100%;
+        margin: 0px;
+    }
+    #pricing .dt{
+        display: none;
+        width: 100%;
+    }
+    #pricing table{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #pricing .mobile{
+        width: 96%;
+        padding: 0 2%;
+        margin: 20px 0px;
+        display: block;
+    }
+    #pricing .mobile h1{
+        line-height: normal;
+    }
+    #pricing .mobile h2{
+        line-height: normal;
+    }
+    #pricing table th{
+        width: 50%;
+    }
+    #pricing table th.first-column{
+        background: #ffffff;
+        width: 50%;
+    }
+    #pricing table th div{
+        width: 100%;
+    }
+    #pricing table th div h3{
+        text-align: center;
+    }
+    #pricing table th p{
+        text-align: center;
+    }
+    #pricing table th span.dollar{
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    #pricing table th span.numb{
+        font-size: 30px;
+    }
+    #pricing .mobile table tbody > td {
+        padding: 0px;
+    }
+    #pricing .mobile td table td{
+        width: 50%;    
+    }
+    #pricing table td.first-column-one{
+        padding: 0px 5px;
+    }
+    #pricing table td.first-column-not-one{
+        padding: 0px 5px;
+    }
+    #pricing table td.first-column-end{
+        background: #ffffff;
+        border-top: 1px solid #ffffff;
+    }
+    #pricing table td.first-column-tenth{
+        padding: 0px 5px;
+    }
+    #pricing table td.first-column-eleventh{
+        padding: 0px 5px;
+    }
+    #pricing table td.highlight{
+        box-shadow: none;
+    }
+    #pricing table td.st_column_mobile{
+        border-top: 4px solid #E6E6E6 !important;
+    }
+    #pricing table td.check-colum-sixth a{
+        position: relative;
+        z-index: 10;
+    }
+    .pricing_contact{
+	position: relative;
+	width: 100%;
+    }
+    table td .popup_info{
+	position: absolute;
+	bottom: 30px;
+	right: 0px;
+	padding: 5px 2%;
+	width: 96%;
+    }
+    #pricing .mobile > p {
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-top: 10px;
+	color: #c3c3c3;
+	font-size: 16px;
+	text-align: center;
+	line-height: normal;
+    }
+    /* Features */
+    .df_page_feature{
+	display: block;
+	margin-top: 20px;
+	padding: 0 2%;
+	width: 96%;
+    }
+    .df_page_feature .arrow_blt{
+	border-left: 120px solid #FFFFFF;
+    }
+    .df_page_feature .arrow_wb{
+	border-left: 120px solid #FFFFFF;
+    }
+    .df_page_feature .arrow_ot{
+	border-left: 120px solid #FAA419;
+    }
+    .df_page_feature .arrow_gt{
+	border-left: 120px solid #8EC63F;
+    }
+    .df_page_feature .arrow_bt{
+	border-left: 120px solid #353535;
+    }
+    .df_page_feature > div{
+	padding: 0px 5px 42px 5px;
+    }
+    .df_page_feature h1{
+	width: 100%;
+    }
+    .df_page_feature h3{
+	margin: 10px 0px;
+    }
+    .df_page_feature .left_column{
+	display: block;
+	float: none;
+	width: 100%;
+	padding: 0px;
+	margin: 0px 0px 20px 0px;
+    }
+    .df_page_feature .left_column h2{
+	margin: 0px 0px 20px 0px;
+	padding: 20px 0px 0px 0px;
+	border-top: none;
+    }
+    .df_page_feature .create_complex_forms h2{
+	padding: 62px 0px 0px 0px;
+    }
+    .df_page_feature .left_column p{
+	text-align: center;
+    }
+    .df_page_feature .left_column img{
+	position: static;
+	max-width: 100%;
+	height: auto;
+    }
+    .df_page_feature .right_column{
+	display: block;
+	float: none;
+	width: 100%;
+	padding: 0px;
+	border: none;
+    }
+    .df_page_feature .right_column p{
+	font-size: 16px;
+    }
+    .df_page_feature .right_column p:last-child{
+	border-bottom: none;
+    }
+    .df_page_feature .right_column .feature_infocustom_df .popup_info {
+	width: 96%;
+	right: 0px;
+	padding: 2%;
+    }
+    .df_page_feature .right_column .feature_infocustom_df .popup_info p{
+	border: none;
+	padding: 0px;
+    }
+    .df_page_feature .more_info{
+	padding: 0px;
+    }
+    .df_page_feature .more_info p{
+	line-height: normal;
+    }
+
+}
+
